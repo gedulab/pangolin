@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{ddb663ef-f355-4e08-83be-21101596c3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{1c11077e-d40a-4d98-9620-0a5e37693ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build">
+      <UniqueIdentifier>{f26de18d-ef80-4c46-9208-c2d7c356850c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{30b679cf-c109-4151-9a9d-b34909e1a87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\ipc">
+      <UniqueIdentifier>{8a042daa-81a4-46f0-8a17-525c860a8d03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\ipc\pangolin.ipc">
+      <Filter>resources\ipc</Filter>
+    </None>
+    <None Include="resources\ipc\readme.md">
+      <Filter>resources\ipc</Filter>
+    </None>
+    <None Include="Makefile">
+      <Filter>build</Filter>
+    </None>
+    <None Include="resources\pangolin.service">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="log.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="pangolin.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="magic.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="rk3588.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="log.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pangolin.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="magic.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="jtag.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ipc.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
